@@ -1,0 +1,168 @@
+
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'poppins' , sans-serif;
+        }
+        .contact{
+            position: relative ;
+            min-height: 100vh;
+            padding: 50px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: url(3.png);
+            background-size: cover;
+        }
+        .contact .content {
+         max-width: 800px;
+         text-align: center;
+        }
+        .contact .content h2
+        {
+            font-size: 36px;
+            font-weight: 500;
+            color: #fff;
+        }
+        .contact .content p
+        {
+            font-weight: 500;
+            color: #fff;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: center;
+            margin-top: 30px;
+        }
+        .container .contactInfo{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        .container .contactInfo .box{
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;
+        }
+        .container .contactInfo .box .text
+        {
+         display: flex;
+         margin-left: 20px;
+         font-size: 16px;
+         color: #fff;
+         flex-direction: column;
+         font-weight: 300;
+        }
+        .container .contactInfo .box .text h3
+        {
+            font-weight: 500;
+            color: aqua;
+        }
+        .contactForm
+        {
+            width: 40%;
+            padding: 40px;
+            background: #fff;
+        }
+        .contactForm h2{
+            font-size: 30px;
+            color: #333 ;
+            font-weight: 500;
+        }
+        .contactForm .inputBox {
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .contactForm .inputBox input,
+        .contactForm .inputBox textarea
+        {
+            width: 100px;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact me</h2>
+        </div>
+        <nav>
+        <a href="https://www.facebook.com/profile.php?id=100013174096680" style="--i:8" ><i class='bx bxl-facebook'></i><img src="social.png" height="30px" width="30px"></a>
+                <a href="https://instagram.com/devrajput0108?igshid=ZGUzMzM3NWJiOQ==" style="--i:9" ><i class='bx bxl-instagram'></i><img src="instagram.png" height="30px" width="30px"></a>
+                <a href="https://wa.me/message/SWKZX7DP5JJJG1" style="--i:10" ><i class='bx bxl-whatsapp'></i><img src="whatsapp.png" width="30px" height="30px"></a>
+                <a href="https://www.linkedin.com/in/devendra-singh-092b51229" style="--i:11" ><i class='bx bxl-linkdin'></i><img src="linkedin.png" height="30px" width="30px"> </a>
+            </nav>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>LLR Boys Hostel, MIMIT Malout <br>
+                        Malout 152107 , Punjab</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Phone no.</h3>
+                        <p>9570161981 , 6202337578</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>Devendrasinghpiyush7070@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="imputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="imputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="imputBox">
+                        <textarea required="required"></textarea>
+                        <span>write your message....</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
